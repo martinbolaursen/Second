@@ -9,5 +9,10 @@ namespace Second.Runtime
             var output = "Second:" + First.Runtime.Echo.Now(s);
             return output;
         }
+
+        public static string Twice(string s)
+        {
+            return Now(Now(s));
+        }
     }
 }
