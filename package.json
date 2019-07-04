@@ -1,0 +1,10 @@
+{
+    "name": "com.lego.second",
+    "version": "0.0.1",
+    "displayName": "Second",
+    "description": "The second component, has dependencies to first.",
+    "unity": "2018.4",
+    "dependencies": {
+        "com.lego.first": "0.0.1"
+    }
+}
